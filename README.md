@@ -23,10 +23,8 @@ Quel groupe a sorti l'album "Use Your Illusion II" ? <br>
 
 <h2> Niveau moyen </h2>
 <br>
-Combien y a t'il d'albums dont le titre contient "Great" ? (indice) <br>
---> 13 (great = Album.where("title like ?", '%great%').count)
-<br>
-Supprime tous les albums dont le nom contient "music". <br>
+Combien y a t'il d'albums dont le titre contient "Great" ?<br>
+--> 13 (great = Album.where("title like ?", '%great%').count)<br>
 <br>
 Combien y a t'il d'albums écrits par AC/DC ? <br>
 --> 2 <br>
